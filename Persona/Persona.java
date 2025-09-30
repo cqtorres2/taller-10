@@ -1,12 +1,10 @@
 public class Persona {
-    String nombre;
 
     public String presentarse() {
         return "Hola";
     }
 
     public class Estudiante extends Persona {
-        String matricula;
 
         @Override
         public String presentarse() {

@@ -1,5 +1,4 @@
 public class Vehiculo {
-    String marca;
 
     public String moverse() {
         return "El objeto se mueve";
