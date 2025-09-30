@@ -2,8 +2,7 @@ public class Persona {
     String nombre;
 
     public String presentarse() {
-        System.out.println("Hola");
-        return presentarse();
+        return "Hola";
     }
 
     public class Estudiante extends Persona {
@@ -11,18 +10,19 @@ public class Persona {
 
         @Override
         public String presentarse() {
-            System.out.println("El estudiante dice hola");
+            return "El estudiante tambien dice hola";
+        }
+        @Override
+        public String toString() {
             return presentarse();
         }
-
     }
 
     public class Profesor extends Persona {
 
         @Override
         public String presentarse() {
-            System.out.println("El profesor dice hola tambien");
-            return presentarse();
+            return "El profesor tambien dice hola";
         }
 
         @Override

@@ -2,17 +2,16 @@ public class Vehiculo {
     String marca;
 
     public String moverse() {
-        System.out.println("El objeto se mueve");
-        return moverse();
+        return "El objeto se mueve";
     }
 
     public class Bicicleta extends Vehiculo {
-        String etiqueta;
+
         @Override
         public String moverse() {
-            System.out.println("La bicicleta se mueve");
-            return moverse();
+            return "La bicicleta se mueve";
         }
+
         @Override
         public String toString() {
             return moverse();
